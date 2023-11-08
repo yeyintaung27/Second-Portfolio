@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+</head>
+<body>
+    
+    <main>
+
+        <!-- Home Section  -->
+        
+        <header id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-bg" viewBox="0 0 1440 320"><path fill="#BEADFA" fill-opacity="1" d="M0,288L60,250.7C120,213,240,139,360,112C480,85,600,107,720,133.3C840,160,960,192,1080,186.7C1200,181,1320,139,1380,117.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+            <nav id="nav">
+                <div class="nav-container">
+                    <div class="logo">
+                        <a href="#home" class="text-logo">YYA</a>
+                    </div>
+
+                    <div class="links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#hire-me" class="active">Hire me</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="hamburger-menu">
+                      <div class="bar"></div>
+                    </div>
+                    
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <div class="text-box">
+                            <h1 class="your-name">"HELLO"</h1>
+						                  <h1 class="header-title">I'm <span>Ye Yint Aung</span></h1>
+
+                            <h3><span class="type"></span></h3>
+
+                            <div class="btn-box">
+                                <a href="#about" class="btn">About me</a>
+                            </div>                            
+                                                        
+                        </div>
+                    </div>
+
+                    <div class="column-2">
+                            <div class="image-box">
+                                <img src="img/profile.jpg" alt="profile image">
+                            </div>                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Home Section  -->
+
+        <!-- About Section  -->
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title">About <span>me</span></h3>
+                </div>
+
+                <div class="section-body grid-2">
+                    <div class="column-1 image">
+                        <img src="./img/profile.jpg" alt="">
+                    </div>
+
+                    <div class="column-2">
+                        <h3 class="title-sm">Welocme To...</h3>
+                        <p class="text">                          
+                          I am a Ye Yint Aung.I am a hardworking and motivated developer who has acquired extensive knowledge in the field throughout the study of software development. I have many experiences in developing projects with front-end, back-end, UI/UX design by using HTML, CSS, Java script, SQL. Additionally, I have strengthened my skills in the work environment by developing multiple websites. Moreover, I have contributed immensely to improve the skills by successful managing projects resulting.</p>
+                        <div class="skills">
+                            <div class="skill html">
+                                <h3 class="skill-title">HTML</h3>
+                                <div class="skill-bar">
+                                  <div class="skill-progress" data-progress="90%"></div>
+                                </div>
+                              </div>
+                              <div class="skill css">
+                                <h3 class="skill-title">CSS</h3>
+                                <div class="skill-bar">
+                                  <div class="skill-progress" data-progress="70%"></div>
+                                </div>
+                              </div>
+                              <div class="skill js">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="skill-bar">
+                                  <div class="skill-progress" data-progress="50%"></div>
+                                </div>
+                              </div>
+                              <div class="skill java">
+                                <h3 class="skill-title">Java</h3>
+                                <div class="skill-bar">
+                                  <div class="skill-progress" data-progress="30%"></div>
+                                </div>
+                              </div>
+                              <div class="skill Database">
+                                <h3 class="skill-title">Database</h3>
+                                <div class="skill-bar">
+                                  <div class="skill-progress" data-progress="50%"></div>
+                                </div>
+                              </div>
+                              <div class="skill html">
+                                <h3 class="skill-title">Communication Skill</h3>
+                                <div class="skill-bar">
+                                  <div class="skill-progress" data-progress="75%"></div>                                </div>
+                              </div>
+                        </div>
+                            <a href="./cv/CVForm.pdf" class="btn">Dowload CV</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        <!-- End About Section  -->
+
+        <!-- Portfolio Section  -->
+
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title">Port<span>folio</span></h3>
+                </div>
+
+                <div class="section-body">
+                    <div class="filter">
+                      <button class="filter-btn active" data-filter="*">All</button>
+                      <button class="filter-btn" data-filter=".page">Web Pages</button>
+                      <button class="filter-btn" data-filter=".css">CSS Animation</button>
+                      <button class="filter-btn" data-filter=".project">Projects</button>
+                    </div>
+        
+                    <div class="grid">
+                      <div class="grid-item page">
+                        <div class="gallery-image">
+                          <img src="img/web1.png" alt="web-pages" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>Web Pages</h3>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+            
+                      <div class="grid-item page">
+                        <div class="gallery-image">
+                          <img src="img/web2.png" alt="web-pages" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>Web Pages</h3>
+                              <a href="https://yeyintaung27.github.io/Coffee-Shop/" target="blank" >View Demo</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item page">
+                        <div class="gallery-image">
+                          <img src="img/web3.png" alt="web-pages" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>Web Pages</h3>
+                              <a href="https://yeyintaung27.github.io/First-Portfolio/" target="blank" >View Demo</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item css">
+                        <div class="gallery-image">
+                          <img src="img/css1.png" alt="css-animation" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>CSS Animation</h3>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item css">
+                        <div class="gallery-image">
+                          <img src="img/css2.png" alt="css-animation" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>CSS Animation</h3>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item css">
+                        <div class="gallery-image">
+                          <img src="img/css3.png" alt="css-animation" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>CSS Animation</h3>
+                                                        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item project">
+                        <div class="gallery-image">
+                          <img src="img/pro1.png" alt="project" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>Projects</h3>
+                              <a href="https://github.com/yeyintaung27/Car_portal" target="blank" >View Github</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item project">
+                        <div class="gallery-image">
+                          <img src="img/pro2.png" alt="project" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>Projects</h3>
+                              <a href="https://yeyintaung27.github.io/ABCLearningCentre/" target="blank" >View Demo</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="grid-item project">
+                        <div class="gallery-image">
+                          <img src="img/pro3.png" alt="project" />
+                          <div class="img-overlay">
+                            <div class="plus"></div>
+                            <div class="img-description">
+                              <h3>Projects</h3>
+                              <a href="https://yeyintaung27.github.io/DoBU-Martial-Arts/" target="blank">View Demo</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="more-folio">
+                      <a href="index.html#portfolio" class="btn">More Portolio</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- End Portfolio Section  -->
+
+
+        <!-- Contact Section  -->      
+
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="contact-box">
+              <div class="contact-info">
+                <h3 class="title">Get In Touch</h3>
+                <p class="text">I live in Aung Myay Thar San Township,Mandalay Division.If you want to hire me,you can contact me by email,facebook,github,likedin.</p>
+  
+                  <div class="information-wrap">                    
+     
+                    <div class="information">
+                      <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <a href="mailto: yeyintaung638864@gmail.com" class="info-text">yeyintaung638864@gmail.com</a>
+                    </div>
+
+                    <div class="information">
+                      <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                      <a href="https://github.com/yeyintaung27" class="info-text">Ye Yint Aung (Github)</a>
+                    </div>
+     
+                    <div class="information">
+                      <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </div>
+                      <a href="https://www.linkedin.com/in/ye-yint-aung-182a4b226/" class="info-text">Ye Yint Aung (Likedin)</a>
+                    </div>
+                  </div>
+
+                  
+              </div>
+  
+              <div class="contact-form">
+                <h3 class="title">Contact<span> Me</span></h3>
+                <div class="row">
+                  <input type="text" name="name" id="name" class="contact-input" placeholder="FirstName" />
+                  <input type="text" name="name" id="name" class="contact-input" placeholder="LastName" />
+                </div>
+  
+                <div class="row">
+                  <input type="text" name="name" id="name" class="contact-input" placeholder="Phone" />
+                  <input type="email" name="name" id="name" class="contact-input" placeholder="Email" />
+                </div>
+  
+                <div class="row">
+                  <textarea name="message" class="contact-input textarea" placeholder="message"></textarea>
+                </div>
+                <a href="#" class="btn">Send</a>
+              </div>
+            </div>
+          </div>
+        </section>
+                
+        <!-- End Contact section  -->
+
+
+        <!-- Hire Me Section -->
+
+            <section class="hire-me" id="hire-me">
+              <div class="container">
+                  <h3 class="title">Let's talk about a project!</h3>
+                  <p class="text">If you like my skills, you can hire me."Thank you"</p>
+                  <a href="#" class="btn">Hire Me</a>
+              </div>
+            </section>
+      <!-- End Hire Me Section -->
+
+
+      <!-- footer section -->
+			
+			<footer>
+				<div class="footer-box">
+					<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Made by Ye Yint Aung</p>
+				</div>
+			</footer>
+
+			<!--end footer section -->
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script type="text/javascript">
+
+  
+    </script>
+</body>
+</html>
