@@ -25,7 +25,7 @@ links.forEach((link) => link.addEventListener("click", () => closeMenu()));
 var typed = new Typed(".type", {
     strings: [
         "I Am Designer",
-        "I Am Wed Developer",
+        "I Am Web Developer",
         "I Am App Developer",
         "I Am Programmer"
     ], 
